@@ -1,0 +1,8 @@
+.grid-container-faq {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-inline: 120px;
+}
