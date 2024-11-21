@@ -1,0 +1,687 @@
+{
+    "charities":[
+        {
+            "id": 1,
+            "image": "https://givenow.vn/wp-content/uploads/2024/10/IMG_2001-768x576.jpeg",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Giúp bé H’Thy Ân nuôi ước mơ trở thành bác sỹ",
+            "raisedAmount":"1,500,437đ",
+            "targetAmount":"20,000,000đ",
+            "tag":"Trẻ em",
+            "status": 0
+        },
+        {
+            "id": 2,
+            "image": "https://givenow.vn/wp-content/uploads/2024/09/IMG_0432-800x600.jpeg",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Xin giúp đỡ hộ nghèo dân tộc ít người có 2 con nhỏ đang cấp cứu",
+            "raisedAmount":"11,895,000đ",
+            "targetAmount":"20,000,000đ",
+            "tag":"Trẻ em",
+            "status": 0
+        },
+        {
+            "id": 3,
+            "image": "https://givenow.vn/wp-content/uploads/2024/09/Cover-app-Thien-nguyen-Give-now-800x600.png",
+            "organization": "Hội chữ thập đỏ Việt Nam",
+            "title": "“Ghép đôi Trăng tròn”",
+            "raisedAmount":"995,000đ",
+            "targetAmount":"200,000,000đ",
+            "tag":"Trẻ em",
+            "status": 1
+        },
+        {
+            "id": 4,
+            "image": "https://givenow.vn/wp-content/uploads/2024/08/441209362_3075376422597623_6011063910256883323_n-2-720x600.jpg",
+            "organization": "Quỹ Từ Thiện Nâng Bước Tuổi Thơ",
+            "title": "Xin hãy giúp tìm lại nụ cười lành lặn cho bé Lâm Tâm Như",
+            "raisedAmount":"18,950,000đ",
+            "targetAmount":"20,000,000đ",
+            "tag":"Trẻ em",
+            "status": 0
+        },
+        {
+            "id": 5,
+            "image": "https://givenow.vn/wp-content/uploads/2024/07/kich-thuoc-quang-cao-fb-1-800x600.png",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Điều ước của gia đình bé Hồ Sụn",
+            "raisedAmount":"6,895,000đ",
+            "targetAmount":"30,000,000đ",
+            "tag":"Trẻ em",
+            "status": 1
+        },
+        {
+            "id": 6,
+            "image": "https://givenow.vn/wp-content/uploads/2024/07/gn3-800x600.jpg",
+            "organization": "Hope Foundation",
+            "title": "Chung tay giúp em bé 1 tuổi chiến đấu với ung thư máu",
+            "raisedAmount":"20,900,000đ",
+            "targetAmount":"30,000,000đ",
+            "tag":"Trẻ em",
+            "status": 1
+        },
+        {
+            "id": 7,
+            "image": "https://givenow.vn/wp-content/uploads/2023/07/PPOST11--800x600.png",
+            "organization": "Nhà tài trợ BCNV",
+            "title": "Dệt tóc – Dệt yêu thương",
+            "raisedAmount":"900,000đ",
+            "targetAmount":"175,000,000đ",
+            "tag":"Cộng Đồng",
+            "status": 1
+        },
+        {
+            "id": 8,
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/1676254827565-450x338.jpg",
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "title": "Giúp đỡ em Lò Thị Tường Vy người dân tộc thiểu số xây dựng nhà khăn quàng đỏ",
+            "raisedAmount":"300,000đ",
+            "targetAmount":"80,000,000đ",
+            "tag":"Cộng Đồng",
+            "status": 1
+        },
+        {
+            "id": 9,
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/1676254827565-450x338.jpg",
+            "organization": "Vườn Xả",
+            "title": "Gây Quỹ cho Vườn Xả",
+            "raisedAmount":"73,300,000đ",
+            "targetAmount":"200,000,000đ",
+            "tag":"Cộng Đồng",
+            "status": 1
+        },
+        {
+            "id": 10,
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/1676254827565-450x338.jpg",
+            "organization": "Nhà tài trợ BCNV",
+            "title": "Tết tóc chơi xuân",
+            "raisedAmount":"35,147,000đ",
+            "targetAmount":"350,000,000đ",
+            "tag":"Cộng Đồng",
+            "status": 0
+        },
+        {
+            "id": 11,
+            "image": "https://givenow.vn/wp-content/uploads/2022/11/z3845581857450_5f9ae1572c08fbbd74c45c697884e2c7-800x600.jpg",
+            "organization": "Nhà tài trợ Giặt Là Sáng",
+            "title": "Viết tiếp ước mơ của những cô gái người Điếc",
+            "raisedAmount":"22,870,000đ",
+            "targetAmount":"100,000,000đ",
+            "tag":"Cộng Đồng",
+            "status": 0
+        },
+        {
+            "id": 12,
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/Picture1-679x600.jpg",
+            "organization": "Quỹ từ thiện Bông Sen",
+            "title": "2000 suất ăn cho người cần thiết tại Quán Yên Vui",
+            "raisedAmount":"650,000đ",
+            "targetAmount":"40,000,000đ",
+            "tag":"Cộng Đồng",
+            "status": 0
+        },
+        {
+            "id": 13,
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/2-800x600.jpg",
+            "organization": "Hope Foundation",
+            "title": "Góp gạch xây điểm trường cho học sinh Nà Tấu, Sơn La",
+            "raisedAmount":"5,900,000đ",
+            "targetAmount":"100,000,000đ",
+            "tag":"Giáo dục",
+            "status": 0
+        },
+        {
+            "id": 14,
+            "image": "https://givenow.vn/wp-content/uploads/2024/07/Banner-ba%CC%89n-tin-CSR-GD-3-768x576.png",
+            "organization": "Hội Cựu Chiến Binh Việt Nam",
+            "title": "Kiến tạo trường học hạnh phúc: Cải tạo nhà vệ sinh và nhà tắm cho gần 600 em học sinh trường PTDTBT Chế Tạo, Yên Bái",
+            "raisedAmount":"75,000,000đ",
+            "targetAmount":"200,000,000đ",
+            "tag":"Giáo dục",
+            "status": 0
+        },
+        {
+            "id": 15,
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/1-1-768x576.jpg",
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "title": "Cùng hỗ trợ xây dựng điểm trường mầm non cho các em học sinh dân tộc Bản Mông, xã Sơn Thủy, huyện Quan Sơn, tỉnh Thanh Hóa",
+            "raisedAmount":"4,300,000đ",
+            "targetAmount":"200,000,000đ",
+            "tag":"Giáo dục",
+            "status": 0
+        },
+        {
+            "id": 16,
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/ec76cc8a3c9ae1c4b88b-800x600.jpg",
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "title": "Gây quỹ học bổng thắp sáng ước mơ tới trường dành cho các bạn học sinh, sinh viên có hoàn cảnh đặc biệt khó khăn",
+            "raisedAmount":"550,000đ",
+            "targetAmount":"120,000,000đ",
+            "tag":"Giáo dục",
+            "status": 1
+        },
+        {
+            "id": 17,
+            "image": "https://givenow.vn/wp-content/uploads/2023/05/z4326797635083_faf4239384b8e4458cf67bd3a6ef5ae6-768x576.jpg",
+            "organization": "Quỹ học bổng Huỳnh Tấn Phát",
+            "title": "Chung tay tiếp bước đến trường cho em Khang",
+            "raisedAmount":"6,870,000đ",
+            "targetAmount":"22,000,000đ",
+            "tag":"Giáo dục",
+            "status": 1
+        },
+        {
+            "id": 18,
+            "image": "https://givenow.vn/wp-content/uploads/2024/04/Thiet-ke-chua-co-ten-768x577.png",
+            "organization": "Tay cộng Tay - HandsOn",
+            "title": "Tay Cộng Tay – Cho hạt nảy mầm: Gây quỹ trao 20 suất học bổng TÀI CHÍNH – KIẾN THỨC – KỸ NĂNG cho các em học sinh khó khăn, hiếu học tại Bến Tre",
+            "raisedAmount":"6,130,000đ",
+            "targetAmount":"150,000,000đ",
+            "tag":"Giáo dục",
+            "status": 1
+        },
+        {
+            "id": 19,
+            "image": "https://givenow.vn/wp-content/uploads/2023/05/f0443e6096164848110713-800x600.jpg",
+            "organization": "Hội Cựu Chiến Binh Việt Nam",
+            "title": "Chung tay xây nhà tình nghĩa cho Cựu binh Trương Tiến Độ",
+            "raisedAmount":"66,900,000đ",
+            "targetAmount":"70,000,000đ",
+            "tag":"Hoàn cảnh khó khăn",
+            "status": 0
+        },
+        {
+            "id": 20,
+            "image": "https://givenow.vn/wp-content/uploads/2024/07/Banner-ba%CC%89n-tin-CSR-GD-3-768x576.png",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Nỗi buồn khổ của người mẹ đau yếu nuôi con tàn tật, mù lòa",
+            "raisedAmount":"1,000,000đ",
+            "targetAmount":"30,000,000đ",
+            "tag":"Hoàn cảnh khó khăn",
+            "status": 0
+        },
+        {
+            "id": 21,
+            "image": "https://givenow.vn/wp-content/uploads/2024/10/Chi-HNu-tai-BV-DK-BMT-768x576.jpeg",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Giúp đỡ gia đình người dân tộc Ê Đê đang gặp vô vàn khó khăn",
+            "raisedAmount":"1,700,000đ",
+            "targetAmount":"50,000,000đ",
+            "tag":"Hoàn cảnh khó khăn",
+            "status": 0
+        },
+        {
+            "id": 22,
+            "image": "https://givenow.vn/wp-content/uploads/2023/09/1-800x590.jpg",
+            "organization": "Quỹ vì tầm vóc Việt",
+            "title": "Chung tay hỗ trợ sinh hoạt phí cho ba thiếu niên đặc biệt khó khăn tại Lào Cai",
+            "raisedAmount":"38,550,000đ",
+            "targetAmount":"71,000,000đ",
+            "tag":"Hoàn cảnh khó khăn",
+            "status": 1
+        },
+        {
+            "id": 23,
+            "image": "https://givenow.vn/wp-content/uploads/2023/11/z4921093206169_ab48a465e3fac470feec3b2a6c5ebcbf-800x600.jpg",
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "title": "“Nhà thay áo mới” xuân Giáp Thìn – Chung tay giúp đỡ Cựu Thanh niên xung phong khó khăn",
+            "raisedAmount":"41,870,000đ",
+            "targetAmount":"50,000,000đ",
+            "tag":"Hoàn cảnh khó khăn",
+            "status": 1
+        },
+        {
+            "id": 24,
+            "image": "https://givenow.vn/wp-content/uploads/2024/08/z5760114355417_c35ee690fdcd2b7976057a2d3323a40b-768x576.jpg",
+            "organization": "Hội Cựu Chiến Binh Việt Nam",
+            "title": "Góp gạch xây nhà tình nghĩa cho cựu chiến binh Lý Hữu Đức",
+            "raisedAmount":"1,730,000đ",
+            "targetAmount":"100,000,000đ",
+            "tag":"Hoàn cảnh khó khăn",
+            "status": 1
+        },
+        {
+            "id": 25,
+            "image": "https://static.thiennguyen.app/public/donate-target/photo/2024/5/8/f33c6478-8de3-4868-9414-3699f792b038.jpg",
+            "organization": "Trung tâm Con người và Thiên nhiên",
+            "title": "Phủ xanh Đất Mẹ 63 tỉnh thành",
+            "raisedAmount":"176,900,000đ",
+            "targetAmount":"1,000,000,000đ",
+            "tag":"Môi trường",
+            "status": 0
+        },
+        {
+            "id": 26,
+            "image": "https://static.thiennguyen.app/public/donate-target/photo/2024/10/5/3f19c32a-8df9-4611-a4e7-a2e33d942f25.jpg",
+            "organization": "Trung tâm Con người và Thiên nhiên",
+            "title": "CÂY CẦU MƠ ƯỚC SỐ 06",
+            "raisedAmount":"83,000,000đ",
+            "targetAmount":"200,000,000đ",
+            "tag":"Môi trường",
+            "status": 0
+        },
+        {
+            "id": 27,
+            "image": "https://givenow.vn/wp-content/uploads/2024/10/Chi-HNu-tai-BV-DK-BMT-768x576.jpeg",
+            "organization": "Trung tâm Con người và Thiên nhiên",
+            "title": "Xây Nhà An Toàn - Vững Vàng Qua Lũ: Chung tay hướng về Miền Trung",
+            "raisedAmount":"1,060,700,000đ",
+            "targetAmount":"2,720,000,000đ",
+            "tag":"Môi trường",
+            "status": 0
+        },
+        {
+            "id": 28,
+            "image": "https://static.thiennguyen.app/public/donate-target/photo/2023/9/13/12225706-065c-4e23-b4de-9ed7a6b153c0.jpg",
+            "organization": "Trung tâm Con người và Thiên nhiên",
+            "title": "Bớt củi - Giữ rừng",
+            "raisedAmount":"21,550,000đ",
+            "targetAmount":"300,000,000đ",
+            "tag":"Môi trường",
+            "status": 1
+        },
+        {
+            "id": 29,
+            "image": "https://ktmt.vnmediacdn.com/images/2023/05/22/20-1684728420-9917-1684724173-lcl-22-05-23-11.jpg",
+            "organization": "Trung tâm Con người và Thiên nhiên",
+            "title": "“Vá rừng” trên núi đá",
+            "raisedAmount":"249,870,000đ",
+            "targetAmount":"500,000,000đ",
+            "tag":"Môi trường",
+            "status": 1
+        },
+        {
+            "id": 30,
+            "image": "https://givenow.vn/wp-content/uploads/2024/08/z5760114355417_c35ee690fdcd2b7976057a2d3323a40b-768x576.jpg",
+            "organization": "Trung tâm Con người và Thiên nhiên",
+            "title": "Cải tiến bếp củi – Góp sức giữ rừng",
+            "raisedAmount":"11,730,000đ",
+            "targetAmount":"100,000,000đ",
+            "tag":"Môi trường",
+            "status": 1
+        },
+        {
+            "id": 31,
+            "image": "https://hoilhpn.angiang.gov.vn/wp-content/uploads/2024/06/word-image-5346-2.jpeg",
+            "organization": "Nhà tài trợ BCNV",
+            "title": "Người già neo đơn, bệnh tật cần giúp đỡ - Hội liên hiệp phụ nữ",
+            "raisedAmount":"1,900,000đ",
+            "targetAmount":"30,000,000đ",
+            "tag":"Người già neo đơn",
+            "status": 0
+        },
+        {
+            "id": 32,
+            "image": "https://tinhdoantravinh.vn/wp-content/uploads/2024/06/buacomyeuthuong1.jpg",
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "title": "“Bữa cơm yêu thương” chăm sóc người già neo đơn ",
+            "raisedAmount":"110,000,000đ",
+            "targetAmount":"200,000,000đ",
+            "tag":"Người già neo đơn",
+            "status": 0
+        },
+        {
+            "id": 33,
+            "image": "https://thuanbac.ninhthuan.gov.vn/portal/Photos/2023-04/f4d994059561f95d33.png",
+            "organization": "Quỹ từ thiện Bông Sen",
+            "title": "CHƯƠNG TRÌNH TỪ THIỆN TẶNG QUÀ CHO NGƯỜI GIÀ NEO ĐƠN, TRẺ EM KHUYẾT TẬT TẠI XÃ PHƯỚC KHÁNG",
+            "raisedAmount":"20,700,000đ",
+            "targetAmount":"100,000,000đ",
+            "tag":"Người già neo đơn",
+            "status": 0
+        },
+        {
+            "id": 34,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjehACB8bo4LPsaDsEbrKA_HrlSpyZCwggg&s",
+            "organization": "Hội chữ thập đỏ Việt Nam",
+            "title": "Mang yêu thương đến người già neo đơn, khó khăn",
+            "raisedAmount":"110,550,000đ",
+            "targetAmount":"300,000,000đ",
+            "tag":"Người già neo đơn",
+            "status": 1
+        },
+        {
+            "id": 35,
+            "image": "https://ktmt.vnmediacdn.com/images/2023/05/22/20-1684728420-9917-1684724173-lcl-22-05-23-11.jpg",
+            "organization": "Quỹ từ thiện Hoa Chia Sẻ",
+            "title": "TRAO TẶNG XE LĂN CHO NGƯỜI GIÀ, NGƯỜI KHUYẾT TẬT",
+            "raisedAmount":"140,870,000đ",
+            "targetAmount":"500,000,000đ",
+            "tag":"Người già neo đơn",
+            "status": 1
+        },
+        {
+            "id": 36,
+            "image": "https://givenow.vn/wp-content/uploads/2022/12/z3938121165516_7af7b5e7a7f0a4d2fee40ba31cdcba38-768x576.jpg",
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "title": "Cùng chung tay cho chương trình “Nhà thay áo mới” xuân Quý Mão 2023",
+            "raisedAmount":"1,730,000đ",
+            "targetAmount":"80,000,000đ",
+            "tag":"Người già neo đơn",
+            "status": 1
+        },
+        {
+            "id": 37,
+            "image": "https://givenow.vn/wp-content/uploads/2024/09/2-2-800x600.jpg",
+            "organization": "Quỹ bảo trợ trẻ em Việt Nam",
+            "title": "Cùng em bước qua cơn bão Yagi, vì một Việt Nam kiên cường",
+            "raisedAmount":"6,900,000đ",
+            "targetAmount":"150,000,000đ",
+            "tag":"Thiên tai",
+            "status": 0
+        },
+        {
+            "id": 38,
+            "image": "https://givenow.vn/wp-content/uploads/2024/09/SA%CC%81T-CA%CC%81NH-CU%CC%80NG-EM-QUA-MU%CC%80A-LU%CC%83_--800x600.png",
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "title": "“Sát cánh cùng em qua mùa lũ",
+            "raisedAmount":"18,000,000đ",
+            "targetAmount":"500,000,000đ",
+            "tag":"Thiên tai",
+            "status": 0
+        },
+        {
+            "id": 39,
+            "image": "https://givenow.vn/wp-content/uploads/2023/07/z4090958480753_edab6e57e266b6c55d9dba9f0d73ee43-800x600.jpg",
+            "organization": "Quỹ từ thiện Hoa Chia Sẻ",
+            "title": "“Trồng cây xanh” – Chung tay để bảo tồn đa dạng sinh học – Bảo vệ hệ sinh thái”",
+            "raisedAmount":"700,000đ",
+            "targetAmount":"50,000,000đ",
+            "tag":"Thiên tai",
+            "status": 0
+        },
+        {
+            "id": 40,
+            "image": "https://givenow.vn/wp-content/uploads/2022/03/Screen-Shot-2022-03-22-at-4.37.22-PM-1.png",
+            "organization": "Quỹ bảo trợ trẻ em Việt Nam",
+            "title": "Chung tay cấp nước sạch cho các trường học bị ảnh hưởng bởi hạn mặn",
+            "raisedAmount":"5,550,000đ",
+            "targetAmount":"90,000,000đ",
+            "tag":"Thiên tai",
+            "status": 1
+        },
+        {
+            "id": 41,
+            "image": "https://givenow.vn/wp-content/uploads/2024/08/Nguoi-dan-tre-nho-Ea-Rot-pho-mang-tren-chiec-be-tam-800x600.jpeg",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Cứu trợ dân nghèo vùng sâu đói rét vì bão lũ",
+            "raisedAmount":"18,870,000đ",
+            "targetAmount":"50,000,000đ",
+            "tag":"Thiên tai",
+            "status": 1
+        },
+        {
+            "id": 42,
+            "image": "https://givenow.vn/wp-content/uploads/2024/09/L1300385-JPG-800x600.jpg",
+            "organization": "Hope Foundation",
+            "title": "Quỹ Hy vọng cùng đồng bào vượt bão",
+            "raisedAmount":"193,730,000đ",
+            "targetAmount":"500,000,000đ",
+            "tag":"Thiên tai",
+            "status": 1
+        },
+        {
+            "id": 43,
+            "image": "https://givenow.vn/wp-content/uploads/2024/08/f8e8798ab7e115bf4cf0.jpg",
+            "organization": "Quỹ Từ Thiện Nâng Bước Tuổi Thơ",
+            "title": "Mang phép màu y tế cho cậu học trò nghèo Trương Khả Hào",
+            "raisedAmount":"5,000,000đ",
+            "targetAmount":"14,000,000đ",
+            "tag":"Y tế",
+            "status": 0
+        },
+        {
+            "id": 44,
+            "image": "https://givenow.vn/wp-content/uploads/2023/09/IMG_8522-768x576.jpg",
+            "organization": "Quỹ Từ Thiện Nâng Bước Tuổi Thơ",
+            "title": "Giúp đỡ mang lại cho em Khánh Hoàng điều trị vẹo cột sống",
+            "raisedAmount":"13,000,000đ",
+            "targetAmount":"12,000,000đ",
+            "tag":"Y tế",
+            "status": 0
+        },
+        {
+            "id": 45,
+            "image": "https://givenow.vn/wp-content/uploads/2024/03/Benh-u-xo-than-kinh-keo-lech-mat-be-Chau-800x600.jpg",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Xin cứu bé Châu mắc bệnh u xơ thần kinh",
+            "raisedAmount":"35,000,000đ",
+            "targetAmount":"100,000,000đ",
+            "tag":"Y tế",
+            "status": 0
+        },
+        {
+            "id": 46,
+            "image": "https://givenow.vn/wp-content/uploads/2023/09/5.-Be-deo-thu-nep-va-huong-dan-deo-o-nha-e1694415120796-800x600.jpg",
+            "organization": "Quỹ Từ Thiện Nâng Bước Tuổi Thơ",
+            "title": "Giúp đỡ em H’Lanh H’Mok điều trị vẹo cột sống",
+            "raisedAmount":"12,550,000đ",
+            "targetAmount":"12,000,000đ",
+            "tag":"Y tế",
+            "status": 1
+        },
+        {
+            "id": 47,
+            "image": "https://givenow.vn/wp-content/uploads/2024/03/H-Dinh-2011-voi-ba-ngoai-va-cac-chi-em-800x600.jpg",
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "title": "Chung tay giúp bé H’Đinh phẫu thuật sọ não",
+            "raisedAmount":"18,870,000đ",
+            "targetAmount":"30,000,000đ",
+            "tag":"Y tế",
+            "status": 1
+        },
+        {
+            "id": 48,
+            "image": "https://givenow.vn/wp-content/uploads/2024/04/Be-Tu-Anh-768x576.jpg",
+            "organization": "Quỹ Từ Thiện Nâng Bước Tuổi Thơ",
+            "title": "Xin hãy giúp trái tim bé nhỏ Tú Anh từ vùng quê nghèo",
+            "raisedAmount":"19,730,000đ",
+            "targetAmount":"17,000,000đ",
+            "tag":"Y tế",
+            "status": 1
+        }
+    ],
+    "org":[
+        {
+            "id": 100,
+            "organization": "Quỹ từ thiện Bông Sen",
+            "image": "./images/partner/p1.png"
+        },
+        {
+            "id": 101,
+            "organization": "Nhà tài trợ Giặt Là Sáng",
+            "image": "./images/partner/p2.png"
+        },
+        {
+            "id": 102,
+            "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
+            "image": "./images/partner/p3.png"
+        },
+        {
+            "id": 103,
+            "organization": "Nhà tài trợ BCNV",
+            "image": "./images/partner/p4.png"
+        },
+        {
+            "id": 104,
+            "organization": "Quỹ bảo trợ trẻ em Việt Nam",
+            "image": "./images/partner/p5.png"
+        },
+        {
+            "id": 105,
+            "organization": "Operation Smile",
+            "image": "./images/partner/p6.png"
+        },
+        {
+            "id": 106,
+            "organization": "Quỹ vì tầm vóc Việt",
+            "image": "./images/partner/p7.png"
+        },
+        {
+            "id": 107,
+            "organization": "Trung tâm Con người và Thiên nhiên",
+            "image": "./images/partner/p8.png"
+        },
+        {
+            "id": 108,
+            "organization": "Quỹ Sống",
+            "image": "./images/partner/p9.png"
+        },
+        {
+            "id": 109,
+            "organization": "Quỹ Phan Anh",
+            "image": "./images/partner/p10.png"
+        },
+        {
+            "id": 110,
+            "organization": "Saigonchildren",
+            "image": "./images/partner/p11.png"
+        },
+        {
+            "id": 111,
+            "organization": "Quỹ từ thiện Hoa Chia Sẻ",
+            "image": "./images/partner/p12.png"
+        },
+        {
+            "id": 112,
+            "organization": "Quỹ Từ Thiện Nâng Bước Tuổi Thơ",
+            "image": "./images/partner/p13.png"
+        },
+        {
+            "id": 113,
+            "organization": "Hội Cựu Chiến Binh Việt Nam",
+            "image": "./images/partner/p14.png"
+        },
+        {
+            "id": 114,
+            "organization": "Hope Foundation",
+            "image": "./images/partner/p15.png"
+        },
+        {
+            "id": 115,
+            "organization": "Quỹ học bổng Huỳnh Tấn Phát",
+            "image": "./images/partner/p16.png"
+        },
+        {
+            "id": 116,
+            "organization": "Vườn Xả",
+            "image": "./images/partner/p17.png"
+        },
+        {
+            "id": 117,
+            "organization": "Hội chữ thập đỏ Việt Nam",
+            "image": "./images/partner/p18.png"
+        },
+        {
+            "id": 118,
+            "organization": "Quỹ Trò Nghèo Vùng Cao",
+            "image": "./images/partner/p19.png"
+        },
+        {
+            "id": 119,
+            "organization": "Quỹ Bảo tồn động thực vật hoang dã Việt Nam",
+            "image": "./images/partner/p20.png"
+        },
+        {
+            "id": 120,
+            "organization": "Tay cộng Tay - HandsOn",
+            "image": "./images/partner/p21.png"
+        },
+        {
+            "id": 121,
+            "organization": "Quỹ Vì trẻ em khuyết tật Việt Nam ",
+            "image": "./images/partner/p22.png"
+        },
+        {
+            "id": 122,
+            "organization": "Quỹ Từ tâm Đắk Lắk",
+            "image": "./images/partner/p23.png"
+        }
+    ],
+    "users":[
+        {
+            "name": "박서준",
+            "avatar": "https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-png_s200x200&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=bYLP8ChJYTYQ7kNvgGNJcqc&_nc_zt=24&_nc_ht=scontent.fsgn5-14.fna&_nc_gid=AgEBecqQOSQapnWY7iWs3pZ&oh=00_AYDKmLRSFZhMgwatib-SSMcA5CJPxvR4W6APntN0LE-kdA&oe=676568FA",
+            "participatedProjects": 20,
+            "totalDonated": "2,000,000đ"
+          },
+          {
+            "name": "Trần Văn Chú Phó",
+            "avatar": "https://scontent.fsgn5-3.fna.fbcdn.net/v/t1.6435-1/118650115_107963001037294_5397116511421204011_n.jpg?stp=dst-jpg_s200x200&_nc_cat=104&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=IiXmUSCHmYMQ7kNvgHZ5Tt1&_nc_zt=24&_nc_ht=scontent.fsgn5-3.fna&_nc_gid=A3i08csgZcYl6tNRAJlM9dC&oh=00_AYD-kwJ-CR2Gt93uKQKMaZtBa0MI5kkPck47ahcsF9sJlg&oe=67656C4E",
+            "participatedProjects": 15,
+            "totalDonated": "310,000,000đ"
+          },
+          {
+            "name": "Poor kid tên Minh",
+            "avatar": "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/355335774_957211275535068_3998253288963312013_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=f727a1&_nc_ohc=Hg5RSAtXVTQQ7kNvgHrTuQI&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=ALiO8tjF20OeXbEAZl2o1Yi&oh=00_AYD1hmHPN1BLdLZoRZjny2Ga4mFlNPAmDESE3oErVi2bQA&oe=6743CB4A",
+            "participatedProjects": 50,
+            "totalDonated": "600,000,000đ"
+          },
+          {
+            "name": "Solar Rick kid",
+            "avatar": "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/316173558_3314711765515634_5459720866686248675_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tC0zJfpHPckQ7kNvgF3LORA&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=AA7tBL6aovxgfUHLLukb7Tp&oh=00_AYBr0n9Xaz5jseZ_Xvnj5CGO2xFssV1rgrpb12KsOeatTQ&oe=6743B1A1",
+            "participatedProjects": 32,
+            "totalDonated": "920,000,000đ"
+          },
+          {
+            "name": "Lĩnh Senpai",
+            "avatar": "https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/434845998_2386025248236279_4831976262523630347_n.jpg?stp=cp6_dst-jpg&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UrFnDjDkWLYQ7kNvgEkUUBM&_nc_zt=23&_nc_ht=scontent.fsgn5-9.fna&_nc_gid=AQYHx4Pazgs10FwW0nq-Da1&oh=00_AYBpslkAziEJGm-Vux9QppkmC8hWnayPK9Lc31_WMVBCjw&oe=6743D556",
+            "participatedProjects": 25,
+            "totalDonated": "750,000,000đ"
+          },
+          {
+            "name": "Vô danh tên A",
+            "avatar": "https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/365124585_979657626623766_6920220861880515407_n.jpg?stp=dst-jpg_s200x200&_nc_cat=107&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=250vrE_rb_EQ7kNvgGVw92T&_nc_zt=24&_nc_ht=scontent.fsgn5-10.fna&_nc_gid=A77u32O2eMas7glQWsPCxCl&oh=00_AYBSaRy7afnpBeaGQHmTx4vZ2bWC59rH9U1g3pZXuJ6ffA&oe=6743B2F0",
+            "participatedProjects": 75,
+            "totalDonated": "1,250,000,000đ"
+          },
+          {
+            "name": "Anh Long",
+            "avatar": "https://cdn.tuoitre.vn/thumb_w/480/471584752817336320/2023/10/25/g-dragon-16982528870931198539211.jpg",
+            "participatedProjects": 40,
+            "totalDonated": "1,050,000,000đ"
+          },
+          {
+            "name": "Linh Xe Ôm",
+            "avatar": "https://canhacnhe.com/vnt_upload/artist/09_2018/hoai-linh.jpg",
+            "participatedProjects": 10,
+            "totalDonated": "14,000,000,000đ"
+          },
+          {
+            "name": "Tran Mỹ Lương",
+            "avatar": "https://cdnphoto.dantri.com.vn/ca7WcIfQKW3lbOqq6yhE5ezrKWM=/thumb_w/1020/2023/11/19/truong-my-lan-edited-1700352878576.jpeg",
+            "participatedProjects": 15,
+            "totalDonated": "13,000,000,050,000,000đ"
+          },
+          {
+            "name": "Công Viên - Thủy Tinh",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBdHth3Ik7h7_dnh1bIyUpflEhCHV2YbtGBw&s",
+            "participatedProjects": 10,
+            "totalDonated": "5,000,000,000đ"
+          },
+          {
+            "name": "Yama Takashi-san",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwweTskdKugiADHln3il7yxUEhb_kO6GlNPA&s",
+            "participatedProjects": 18,
+            "totalDonated": "16,000,000,000đ"
+          },
+          {
+            "name": "Nguyễn Du",
+            "avatar": "https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/431701505_2441670242887725_3640497792473001986_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=XYJ7afOfPEUQ7kNvgHAUQ6Q&_nc_zt=23&_nc_ht=scontent.fsgn5-8.fna&_nc_gid=A--lFAV_TFOwq8oO42lH_2x&oh=00_AYAl0I3kjGpKQOvDtI3a9iizPnfltrRzLN5TIJ_zcE5Nsg&oe=6743D3C6",
+            "participatedProjects": 22,
+            "totalDonated": "340,000,000đ"
+          },
+          {
+            "name": "Vàng Minh",
+            "avatar": "https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/450207063_1005161001240428_8884191702239463336_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=awCK8wedcUkQ7kNvgH-gTEi&_nc_zt=23&_nc_ht=scontent.fsgn5-12.fna&_nc_gid=A1hA_6PMcEZa2NVMQfvZ62h&oh=00_AYDapRNKkK3uanepeDI9BROZgKz8K4D0yQ8g4wiIzo9z_A&oe=6743D857",
+            "participatedProjects": 8,
+            "totalDonated": "210,000,000đ"
+          },
+          {
+            "name": "Bồ của Dũ Nguyên",
+            "avatar": "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/431394578_3745391395744647_2313674848929706111_n.jpg?stp=dst-jpg_p160x160&_nc_cat=108&ccb=1-7&_nc_sid=bd9a62&_nc_ohc=SefH0rTRCmQQ7kNvgGNIJsT&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=AL2n1vgNIFQkRm94zE8lY2d&oh=00_AYAJXP-z88gcjJ1NIvOqJiQ7A9EKlYBX_fqdyxgjxIygGQ&oe=6743F4DB",
+            "participatedProjects": 4,
+            "totalDonated": "180,000,000đ"
+          }
+    ]
+}
