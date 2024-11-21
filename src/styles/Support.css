@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form select, form textarea, form button {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .grid-container-faq {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-inline: 120px;
+  }
