@@ -18,7 +18,8 @@ function FAQ() {
         </div>
       </div>
 
-      <div className='about-container bg-gray'>
+      <div className='bg-gray'>
+      <div className='page-container'>
         <h1 className='mt-5 mb-0'>
           HỢP TÁC VỚI GIVEHUB?
         </h1>
@@ -28,9 +29,11 @@ function FAQ() {
 
         </p>
         <Link to={'/support'} className='contact-button mb-4'>LIÊN HỆ GIVEHUB</Link>
+        </div>
 
       </div>
-      <div className='about-container bg-white'>
+      
+      <div className='page-container bg-white'>
         <h1 className='mt-5 mb-1'>
           FAQs
         </h1>

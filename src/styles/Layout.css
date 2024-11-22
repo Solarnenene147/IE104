@@ -10,4 +10,10 @@
     height: 50px;
   }
   
-  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 130px;
+}
+

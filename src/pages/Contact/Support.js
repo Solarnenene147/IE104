@@ -11,7 +11,6 @@ function Support() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // Thay bằng API POST
     alert("Yêu cầu hỗ trợ đã được gửi!");
   };
 
@@ -19,10 +18,10 @@ function Support() {
     <div className='page bg-white'>
       <div className='page-title-container'>
         <div className='page-title-image'>
-            <h1 className='about-title'>Hỗ trợ trực tuyến</h1>
-          </div>
+          <h1 className='about-title'>Hỗ trợ trực tuyến</h1>
         </div>
-        <div className='grid-container-support  '>
+      </div>
+      <div className='grid-container-support  '>
 
         <div>
           <h2>Liên hệ trực tiếp</h2>
@@ -32,6 +31,12 @@ function Support() {
             Live Chat:{" "}
             <a href='https://maps.app.goo.gl/qEVTkp3G8CizxpBA6' target="_blank" rel="noopener noreferrer">Khu phố 6, Linh Trung, Thành phố Thủ Đức.</a>
           </p>
+          {/*Lên youtube embed video khác */}
+          <div className='mt-3'>
+            <h2>Video hướng dẫn</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3tamdFVLw_U?si=Sw2pn7iUZKlMk6pq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          </div>
         </div>
         <div>
           <form onSubmit={handleSubmit}>
@@ -66,17 +71,11 @@ function Support() {
               onChange={(e) => setFormData({ ...formData, description: e.target.value })}
               required
             />
-            <button className='contact-button'  type="submit">Gửi yêu cầu</button>
+            <button className='contact-button' type="submit">Gửi yêu cầu</button>
           </form>
         </div>
-
-        {/*Lên youtube embed video khác */}
       </div>
-      <div className='mb-5 mx-5'>
-          <h2>Video hướng dẫn</h2>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/3tamdFVLw_U?si=Sw2pn7iUZKlMk6pq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        </div>
     </div>
 
 

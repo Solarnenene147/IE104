@@ -17,3 +17,17 @@ form {
     margin-top: 20px;
     margin-inline: 120px;
   }
+
+  .grid-container-support {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-inline: 120px;
+  }
+  
+  .textarea-support {
+    resize: none;
+    height: 230px;
+  }
