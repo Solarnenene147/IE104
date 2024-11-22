@@ -17,3 +17,23 @@
     margin-inline: 130px;
 }
 
+  .back-to-top {
+    position: fixed;
+    bottom: 105px;
+    right: 51px;
+    background-color: #838485;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0.6;
+  }
+  
+  .back-to-top:hover {
+    opacity: 0.8;
+  }
+  

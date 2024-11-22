@@ -485,117 +485,117 @@
         {
             "id": 100,
             "organization": "Quỹ từ thiện Bông Sen",
-            "image": "./images/partner/p1.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/08/Quybongsenava.jpg"
         },
         {
             "id": 101,
             "organization": "Nhà tài trợ Giặt Là Sáng",
-            "image": "./images/partner/p2.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/11/Logo-Sang-group.jpg"
         },
         {
             "id": 102,
             "organization": "Đoàn thanh niên Cộng Sản Hồ Chí Minh",
-            "image": "./images/partner/p3.png"
+            "image": "https://givenow.vn/wp-content/uploads/2023/03/Huy-hieu-Doan-copy-1.jpg"
         },
         {
             "id": 103,
             "organization": "Nhà tài trợ BCNV",
-            "image": "./images/partner/p4.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/05/BCNV.png"
         },
         {
             "id": 104,
             "organization": "Quỹ bảo trợ trẻ em Việt Nam",
-            "image": "./images/partner/p5.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/05/QBTTEVN.png"
         },
         {
             "id": 105,
             "organization": "Operation Smile",
-            "image": "./images/partner/p6.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/05/OSV.png"
         },
         {
             "id": 106,
             "organization": "Quỹ vì tầm vóc Việt",
-            "image": "./images/partner/p7.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/05/Logo-Quy%CC%83-copy.png"
         },
         {
             "id": 107,
             "organization": "Trung tâm Con người và Thiên nhiên",
-            "image": "./images/partner/p8.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/05/PanNature.png"
         },
         {
             "id": 108,
             "organization": "Quỹ Sống",
-            "image": "./images/partner/p9.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/08/Logo-Song-100x100.jpg"
         },
         {
             "id": 109,
             "organization": "Quỹ Phan Anh",
-            "image": "./images/partner/p10.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/07/Phan-Anh-1.png"
         },
         {
             "id": 110,
             "organization": "Saigonchildren",
-            "image": "./images/partner/p11.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/07/SG.png"
         },
         {
             "id": 111,
             "organization": "Quỹ từ thiện Hoa Chia Sẻ",
-            "image": "./images/partner/p12.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/08/Hoa-chia-se.png"
         },
         {
             "id": 112,
             "organization": "Quỹ Từ Thiện Nâng Bước Tuổi Thơ",
-            "image": "./images/partner/p13.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/08/NBTT1-e1664447215874.jpeg"
         },
         {
             "id": 113,
             "organization": "Hội Cựu Chiến Binh Việt Nam",
-            "image": "./images/partner/p14.png"
+            "image": "https://givenow.vn/wp-content/uploads/2023/05/38F10C9A-E3CB-4882-A165-1F31CCEFE3C4.png"
         },
         {
             "id": 114,
             "organization": "Hope Foundation",
-            "image": "./images/partner/p15.png"
+            "image": "https://givenow.vn/wp-content/uploads/2023/01/Untitled-1-e1678897846902.jpg"
         },
         {
             "id": 115,
             "organization": "Quỹ học bổng Huỳnh Tấn Phát",
-            "image": "./images/partner/p16.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/11/htp.jpg"
         },
         {
             "id": 116,
             "organization": "Vườn Xả",
-            "image": "./images/partner/p17.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/12/Vuonxa-logo.png"
         },
         {
             "id": 117,
             "organization": "Hội chữ thập đỏ Việt Nam",
-            "image": "./images/partner/p18.png"
+            "image": "https://givenow.vn/wp-content/uploads/2023/09/Logo-Ho%CC%A3%CC%82i-final.png"
         },
         {
             "id": 118,
             "organization": "Quỹ Trò Nghèo Vùng Cao",
-            "image": "./images/partner/p19.png"
+            "image": "https://givenow.vn/wp-content/uploads/2023/12/tnvc.jpg"
         },
         {
             "id": 119,
             "organization": "Quỹ Bảo tồn động thực vật hoang dã Việt Nam",
-            "image": "./images/partner/p20.png"
+            "image": "https://givenow.vn/wp-content/uploads/2023/12/ConservationVietnam.jpg"
         },
         {
             "id": 120,
             "organization": "Tay cộng Tay - HandsOn",
-            "image": "./images/partner/p21.png"
+            "image": "https://givenow.vn/wp-content/uploads/2023/02/HandOn-scaled.jpg"
         },
         {
             "id": 121,
             "organization": "Quỹ Vì trẻ em khuyết tật Việt Nam ",
-            "image": "./images/partner/p22.png"
+            "image": "https://givenow.vn/wp-content/uploads/2022/11/vitreemkhuyetat.jpeg"
         },
         {
             "id": 122,
             "organization": "Quỹ Từ tâm Đắk Lắk",
-            "image": "./images/partner/p23.png"
+            "image": "https://givenow.vn/wp-content/uploads/2024/01/z5081997975933_46566dfd6bafcc7d2feb12b58e0d916d.jpg"
         }
     ],
     "users":[
@@ -648,7 +648,7 @@
             "totalDonated": "14,000,000,000đ"
           },
           {
-            "name": "Tran Mỹ Lương",
+            "name": "Truong D.Mylan",
             "avatar": "https://cdnphoto.dantri.com.vn/ca7WcIfQKW3lbOqq6yhE5ezrKWM=/thumb_w/1020/2023/11/19/truong-my-lan-edited-1700352878576.jpeg",
             "participatedProjects": 15,
             "totalDonated": "13,000,000,050,000,000đ"

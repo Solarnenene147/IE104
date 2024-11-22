@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../../styles/Authorization.css';
+import { Link } from 'react-router-dom';
 import googleLogo from '../../images/features/Google_logo.png';
 
 function RegisterModal({ onClose, onSwitchToLogin }) {
@@ -111,7 +112,7 @@ function RegisterModal({ onClose, onSwitchToLogin }) {
             className='checkbox'
             required
           />
-          <label> Bạn có đồng ý với các điều khoản <a href="policy" className='policy'>ở đây</a> không?</label>
+          <label> Bạn có đồng ý với các điều khoản <Link to="/term" className='policy'>ở đây</Link> không?</label>
         </div>
 
         <p className='login-text'>- Hoặc đăng ký bằng -</p>
