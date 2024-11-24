@@ -1,0 +1,93 @@
+.faq-page {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.faq-title{
+    margin: 0;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.faq-container {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container-faq {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    width: 80%;
+    margin-inline: 0; /* Loại bỏ lề hai bên */
+}
+
+
+/* Accordion styles */
+.accordion-item {
+    margin-bottom: 20px; 
+  }
+  
+
+.accordion-header {
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header h3 {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    height: 44.63px;
+}
+
+.accordion-icon {
+    font-size: 17px;
+    font-weight: bolder;
+    color: #555;
+    transition: transform 0.3s ease; /* Hiệu ứng xoay mũi tên */
+}
+
+.accordion-icon:hover{
+    color: #e32a1c;
+}
+
+.accordion-icon.rotate {
+transform: rotate(90deg); /* Xoay mũi tên 90 độ */
+}
+
+.accordion-content {
+    margin-top: 10px;
+    border-top: none;
+    color: #444;
+    font-size: 15px;
+    overflow: hidden;
+    max-height: 0; 
+    opacity: 0; 
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    text-align: justify;
+}
+
+.accordion-content.open {
+    max-height: fit-content; 
+    margin: 0;
+    opacity: 1; 
+}
+
+.accordion-content p{
+    margin-left: 20px;
+}
+

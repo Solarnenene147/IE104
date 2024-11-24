@@ -1,33 +1,82 @@
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  form input, form select, form textarea, form button {
-    padding: 10px;
-    font-size: 18px;
-  }
+.support-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 12px;
+  font-family: 'Arial', sans-serif;
+}
 
-  .grid-container-faq {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 30px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    margin-inline: 120px;
-  }
+.support-form h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
 
-  .grid-container-support {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 30px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    margin-inline: 120px;
-  }
-  
-  .textarea-support {
-    resize: none;
-    height: 230px;
-  }
+.support-form input, 
+.support-form select, 
+.support-form textarea, 
+.support-form button {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: transparent; /* Không có nền */
+}
+
+.support-form input::placeholder {
+  color: #999; /* Màu placeholder */
+}
+
+.support-form input:focus, 
+.support-form select:focus, 
+.support-form textarea:focus {
+  border-color: #23bdf5;
+  box-shadow: 0 0 5px rgba(15, 119, 224, 0.4);
+}
+
+.support-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.support-form button {
+  background-color: #e32a1c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.support-form button:hover {
+  background-color: #c92418;
+  box-shadow: 0 4px 6px rgba(227, 42, 28, 0.3);
+}
+
+.support-form button:active {
+  transform: scale(0.98);
+}
+
+.grid-container-support {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  margin: 30px 100px;
+}
+
+.textarea-support {
+  resize: none;
+  height: 200px;
+  font-family: 'Arial', sans-serif;
+}
+
+.support-link{
+  text-decoration: none;
+  color: black;
+}
+
+.support-link:hover{
+  color: #e32a1c;
+}

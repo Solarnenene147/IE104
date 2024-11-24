@@ -6,6 +6,7 @@
 
 .page-title-container {
     flex: 1;
+    margin: 0;
     flex-direction: column;
     background-image: url(https://givenow.vn/wp-content/uploads/2022/07/project_cover_with_overlay.png);
     background-size: cover;
@@ -26,7 +27,7 @@
 }
 
 .about-title {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .about-text {
@@ -98,3 +99,65 @@
 }
 
 
+/*utility class*/
+
+.bg-gray {
+    background-color: #F4F4F4;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.gray-text {
+    color: #4D4D4D;
+}
+
+.large-title-text {
+    font-size: 40px;
+}
+
+.medium-title-text {
+    font-size: 30px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-5 {
+    margin-bottom: 50px;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.bold {
+    color:black;    
+    text-shadow: 1px 0 black;
+    font-weight:bold;
+}
+
+/* Hiệu ứng khi hover vào ảnh */
+.grid-image:hover, 
+.flex-image:hover {
+    transform: scale(1.05); /* Tăng kích thước ảnh 1.05 lần */
+    transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng mượt */
+}

@@ -12,6 +12,8 @@ import Support from './Contact/Support';
 import Login from './Authorization/Login';
 import Register from './Authorization/Register'
 import Term from './Term/Term'
+import Detail from './Donate/ProjectDetail';
+import Project from './Organization/Project';
 
 export const routes = [
   { path: "/", element: <Home /> },
@@ -27,4 +29,6 @@ export const routes = [
   { path: "/login", element: <Login /> },
   { path: "/register", element: <Register /> },
   { path: "/term", element: <Term /> },
+  { path: "/detail/:id", element: <Detail /> },
+  { path: "/project", element: <Project/> },
 ];

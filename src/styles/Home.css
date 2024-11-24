@@ -120,7 +120,7 @@
     text-align: center;
 }
 .project .subtitle{
-    margin: 0 0 30px;
+    margin: 0;
     text-align: center;
     color: #555454;
 }
@@ -215,4 +215,184 @@
 
 .supporter img:hover {
     transform: scale(1.05); /* Phóng to khi hover */
+}
+
+/* Home project Slider */
+/* Dự án đang gây quỹ */
+.project-grid {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.home-project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+    
+}
+
+.home-project-item.active {
+    opacity: 1;
+}
+
+.home-project-container {
+    padding-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px 10px ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease-in-out;
+    background-color: white;
+    z-index: 1;
+    width: 95%;
+}
+
+.home-project-container:hover{
+    transform: scale(1.05);
+}
+
+
+.project-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.home-project-tag{
+    font-size: 12px;
+    background-color: #e91e63;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    justify-self: right;
+    color: white;
+}
+
+.home-project-content{
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.home-project-title{
+    display: -webkit-box;      
+    -webkit-line-clamp: 2;       
+    -webkit-box-orient: vertical; 
+    overflow: hidden;            
+    text-overflow: ellipsis;
+    height: 38.67px;
+    margin: 5px 0;
+}
+
+.home-org-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%; /* Để hiển thị hình tròn, nếu bạn muốn */
+    margin: 38% 15px 0 15px;
+}
+
+.home-org{
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+/* Container cho slider */
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+/* Định dạng các nút mũi tên */
+.slider-nav {
+    width: 85%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    position: absolute;
+    top: 900px;
+    left: 7.5%;
+}
+
+.slider-prev, .slider-next {
+    border: none; 
+    cursor: pointer; 
+    font-size: 50px;
+    background-color: transparent;
+    color: #555; 
+    transition: transform 0.3s ease; 
+}
+
+.slider-prev:hover, .slider-next:hover {
+    transform: scale(1.3);
+    color: #000;
+}
+
+/* Thanh tiến độ */
+.progress-container {
+    background-color: #fda4a4;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #e91e63;
+    transition: width 0.4s ease;
+}
+
+.progress-text {
+    font-size: 12px;
+    color: #333;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.home-target{
+    margin: 0;
+    color: #555;
+}
+
+.home-more{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: block;
+    width: 10%;
+    text-align: center;
+    box-shadow: 1px 1px 2px black;
+    color: #e91e63;
+}
+
+.home-more:hover{
+    box-shadow: 2px 2px 3px black;
+    background-color: #fc6e6e;
+    color: white;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

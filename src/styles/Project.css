@@ -1,0 +1,49 @@
+.project-tab-buttons {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.project-tab-buttons button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.project-tab-buttons button:not(.active):hover {
+    border-bottom: 3px solid #00000031;
+}
+
+.project-tab-buttons .active {
+    color: #f44336;
+    border-bottom: 3px solid #f44336;
+}
+
+/* Dự án nổi bật */
+.featured-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Màu nền tùy chỉnh */
+}
+
+.featured-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Chia thành 3 cột đều nhau */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    width: 90%;
+}

@@ -1,4 +1,4 @@
-.terms-container {
+.terms-content {
     padding: 20px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,37 +6,37 @@
     margin: 0 auto;
 }
 
-.terms-container h1 {
+.terms-content h1 {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.terms-container h2 {
+.terms-content h2 {
     margin-top: 30px;
     font-size: 1.5em;
     color: #F44336;
 }
 
-.terms-container p, ul {
+.terms-content p, ul {
     margin: 10px 0;
     font-size: 1em;
 }
 
-.terms-container ul {
+.terms-content ul {
     padding-left: 20px;
 }
 
-.terms-container ul li {
+.terms-content ul li {
     margin-bottom: 10px;
 }
 
-.terms-container a{
+.terms-content a{
     font-weight: bold;
     text-decoration: none;
     color: #ff0019;
 }
 
-.terms-container a:hover{
+.terms-content a:hover{
     text-decoration: underline;
 }
