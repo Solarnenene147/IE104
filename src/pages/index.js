@@ -14,7 +14,7 @@ import Register from './Authorization/Register'
 import Term from './Term/Term'
 import Detail from './Donate/ProjectDetail';
 import Project from './Organization/Project';
-import Organize from './Organization/Project';
+import Organize from './Organization/OrganizationDetail';
 
 export const routes = [
   { path: "/", element: <Home /> },
