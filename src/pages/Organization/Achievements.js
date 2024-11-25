@@ -45,11 +45,6 @@ function Achievement({ organizationName, onSwitchToFeatured }) {
         )
         : charities.filter((charity) => charity.status === 1); // Hiển thị tất cả dự án đã kết thúc nếu không có tổ chức cụ thể
 
-    // Hàm lấy màu cho tag
-    const getTagColor = (tag) => {
-        const normalizedTag = removeVietnameseTones(tag); // Loại bỏ dấu
-        return tagColors[normalizedTag] || "#e91e63"; // Màu mặc định
-    };
 
     return (
         <div className='featured-container'>
