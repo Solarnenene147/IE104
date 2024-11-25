@@ -1,0 +1,192 @@
+.project-detail-container-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.project-detail-container{
+    width: 80%;
+}
+
+.project-detail-info{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px;
+}
+
+.project-detail-img-container {
+    position: relative; /* Đặt phần tử này làm phần tử cha có position tương đối */
+    width: 45%;
+  }
+  
+  .project-detail-tag {
+    position: absolute; 
+    top: 0;
+    right: 15px; 
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+.project-detail-image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.project-detail-content{
+    width: 55%;
+}
+
+.project-detail-title{
+    margin: 0 0 20px 0;
+}
+
+.project-detail-raised-amount,
+.project-detail-target-amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.project-detail-raised-amount span{
+    font-size: 20px;
+    color: #F9153E;
+    font-weight: bold;
+    
+}
+
+.detail-org-logo{
+    width: 12%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.project-detail-organization{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+}
+.project-info-content{
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.detail-donate-button-container{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Container cho phần "Chi tiết" */
+.project-detail-details-title {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #e91e63; /* Đường gạch dưới tiêu đề */
+    padding-bottom: 10px;
+}
+
+.project-detail-details-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none; /* Loại bỏ ký hiệu bullet */
+}
+
+.project-detail-detail-item {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-detail-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.project-detail-foottext {
+    background-color: #eee;
+    font-size: 0.875rem;
+    color: #999;
+    padding: 20px;
+}
+
+.project-detail-img {
+    width: 100%;
+    height: auto; /* Chiều cao tự động theo tỉ lệ gốc */
+    object-fit: contain; /* Hiển thị toàn bộ ảnh trong khung mà không cắt */
+    border-radius: 8px;
+}
+
+.project-detail-caption {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.share-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .share-facebook-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1877f2; /* Màu nền Facebook */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .share-facebook-button:hover {
+    background-color: #155f9a; /* Màu nền khi hover */
+  }
+  
+  .facebook-icon {
+    margin-right: 10px; /* Khoảng cách giữa icon và text */
+    font-size: 20px; /* Kích thước của icon */
+  }
+
+  .project-status {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f44336; /* Màu đỏ cho thông báo trạng thái */
+    margin:0;
+    text-align: center;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  /* CSS cho phần tử thông báo "Dự án đã hoàn thành" */
+  .project-status.completed {
+    color: #4caf50; /* Màu xanh khi dự án hoàn thành */
+  }
+  
+  /* CSS cho phần tử thông báo "Dự án đã kết thúc" */
+  .project-status.ended {
+    color: #f44336; /* Màu đỏ khi dự án kết thúc */
+  }

@@ -23,7 +23,6 @@ const tagColors = {
     "tre-em": "#0aa886",
     "nguoi-gia-neo-don": "#5c4917",
     "hoan-canh-kho-khan": "#e64207",
-
 };
 
 // Hàm lấy màu cho tag
@@ -32,7 +31,7 @@ const getTagColor = (tag) => {
     return tagColors[normalizedTag] || "#e91e63"; // Màu mặc định
 };
 
-const ProjectSlider = ({ charities, getOrgImage }) => {
+const ProjectSlider = ({ charities, getOrgImage, getOrgID }) => {
     const sliderRef = useRef(null);
 
     // Hàm xáo trộn mảng
@@ -90,6 +89,7 @@ const ProjectSlider = ({ charities, getOrgImage }) => {
                             .filter((charity) => charity.status === 0)
                             .map((charity) => {
                                 const orgImage = getOrgImage(charity.organization);
+                                const orgID = getOrgID(charity.organization);
                                 const raised = parseInt(charity.raisedAmount.replace(/[^0-9]/g, ""), 10);
                                 const target = parseInt(charity.targetAmount.replace(/[^0-9]/g, ""), 10);
                                 const progress = Math.min((raised / target) * 100, 100);
@@ -110,19 +110,35 @@ const ProjectSlider = ({ charities, getOrgImage }) => {
                                                 {charity.tag}
                                             </p>
                                             {orgImage && (
-                                                <img
-                                                    src={orgImage}
-                                                    alt={charity.organization}
-                                                    className="home-org-logo"
-                                                />
-                                            )}
-                                            <div className="home-project-content">
-                                                <p className="home-org">{charity.organization}</p>
                                                 <Link
-                                                    to={`/detail/${charity.id}`}
+                                                    to={`/organization/${orgID}`} // Điều hướng đến trang chi tiết tổ chức
                                                     style={{ textDecoration: "none", color: "black" }}
                                                 >
-                                                    <h4 className="home-project-title">{charity.title}</h4>
+                                                    <div className="home-org-logo-container">
+                                                        <img
+                                                            src={orgImage}
+                                                            alt={charity.organization}
+                                                            className="home-org-logo"
+                                                        />
+                                                    </div>
+                                                </Link>
+                                            )}
+                                            <div className="home-project-content">
+                                                <p className="home-org">
+                                                    <Link
+                                                        to={`/organization/${orgID}`} // Điều hướng đến trang chi tiết tổ chức
+                                                        style={{ textDecoration: "none", color: "black" }}
+                                                    >
+                                                        {charity.organization}
+                                                    </Link>
+                                                </p>
+                                                <Link
+                                                    to={`/detail/${charity.id}`} // Điều hướng đến chi tiết dự án
+                                                    style={{ textDecoration: "none", color: "black" }}
+                                                >
+                                                    <h4 className="home-project-title">
+                                                        <span></span>{charity.title}
+                                                    </h4>
                                                 </Link>
                                                 <div className="progress-container">
                                                     <div

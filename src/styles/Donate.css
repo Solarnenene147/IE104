@@ -136,10 +136,12 @@
     justify-content: space-between;
     width: 20%;
     height: 100%;
+    gap: 20px;
   }
 
   .donate-button{
-    height: 45%;
+    height: 100%;
+    width: 100%;
     font-size: 15px;
     font-weight: bold;
     border-radius: 10px;
@@ -152,3 +154,380 @@
   .donate-button:hover{
     box-shadow: 1px 1px 5px black;
   }
+
+
+  /*------------------------------- Donate Modal ------------------------------ */
+
+  /* Overlay */
+.donate-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Nền mờ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Container */
+.donate-modal-container {
+  background-color: #fff; /* Nền trắng */
+  border-radius: 8px; /* Bo góc */
+  padding: 30px; /* Khoảng cách bên trong */
+  max-width: 65%;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out; /* Hiệu ứng mở modal */
+}
+
+/* Close Button */
+.donate-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px; /* Kích thước biểu tượng đóng */
+  font-weight: bold;
+  color: #333; /* Màu biểu tượng */
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.donate-modal-close:hover {
+  color: #f00; /* Đổi màu khi hover */
+}
+
+/* Modal Content */
+.donate-modal-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.donate-modal-title strong{
+  color: #e91e63;
+}
+
+/* Hiệu ứng mở modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.donate-modal-tab-buttons {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.donate-modal-tab-buttons button {
+  flex: 1;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #f1f1f1;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.donate-modal-tab-buttons button:not(.active):hover {
+  border-bottom: 2px solid #00000031;
+}
+
+.donate-modal-tab-buttons .active {
+  background-color: #F44336;
+  color: white;
+}
+
+.donate-modal-content{
+  padding: 0 40px 0 40px;
+}
+
+
+/* ----------------------------- Online Donate ------------------------------- */
+
+/* Donate.css */
+
+.online-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.online-form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.online-form-field {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.online-form-label {
+  margin-bottom: 8px;
+}
+
+.online-required {
+  color: red;
+  font-weight: bold;
+}
+
+.online-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.online-input:focus {
+  border-color: #F44336;
+  outline: none;
+}
+
+.online-input-error {
+  border-color: red;
+}
+
+.online-error-message {
+  margin-top: 5px;
+  color: red;
+  font-size: 12px;
+}
+
+.online-anonymous {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.online-anonymous input {
+  margin-right: 10px;
+}
+
+.online-divider {
+  border: none;
+  border-top: 1px solid #eeeeee;
+  margin: 10px 0;
+}
+
+.online-amount-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.online-amount-container {
+  display: flex;
+  align-items: center;
+  background-color: #efedeb;
+  padding: 10px;
+  border-radius: 10px;
+  width: 28%;
+}
+
+.online-amount-change{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.online-amount-btn {
+  border: none;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333333;
+  margin: 0 10px;
+  width: 20%;
+}
+
+.online-amount-field {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  color: #555;
+  background-color: transparent;
+  width: 80%;
+}
+
+.online-unit {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #777777;
+}
+
+.online-donate-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #F44336;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+
+}
+
+.online-donate-button:hover {
+  background-color: #D32F2F;
+}
+
+.online-terms {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555555;
+  text-align: center;
+}
+
+.online-terms a {
+  color: #F44336;
+  text-decoration: none;
+}
+
+.online-terms a:hover {
+  text-decoration: underline;
+}
+
+.online-qr-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.online-qr-container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.online-qr-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.online-close-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.online-close-btn:hover {
+  background: #d32f2f;
+}
+
+.online-qr-close-x {
+  position: absolute;
+  top: 10px; /* Canh chỉnh vị trí nút trong container */
+  right: 10px; /* Canh chỉnh vị trí nút trong container */
+  background: transparent;
+  border: none;
+  font-size: 50px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.online-qr-close-x:hover {
+  color: #ff0000;
+}
+
+/* ---------------------- Offline Donate ---------------------- */
+
+.offline-container {
+  background-color: #f9f9f9;
+  padding: 10px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.offline-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.offline-item {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+  line-height: 1.6;
+  display: flex; /* Sử dụng Flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.offline-link {
+  color: #F44336;
+  text-decoration: none;
+}
+
+.offline-link:hover {
+  color: #D32F2F;
+  text-decoration: underline;
+}
+
+.offline-quote {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  color: #777;
+}
+
+.offline-icon {
+  color: #F44336;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.offline-item a {
+  display: inline-block;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+.offline-item a:visited {
+  color: #5f6368;
+}
+

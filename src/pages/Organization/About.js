@@ -56,106 +56,100 @@ function About() {
         </div>
       </div>
 
-      <div className='bg-white'>
-        <div className='page-container'>
-          <h1 className='mt-5 mb-1'>
-            Đối tác GiveHub
-          </h1>
-          <h2 className='mt-1 mb-1'>
-            Các tổ chức gây quỹ tiêu biểu
-          </h2>
-          <div className='grid-container'>
+      <div className='about-container bg-white'>
+        <h1 className='mt-5 mb-1'>
+          Đối tác GiveHub
+        </h1>
+        <h2 className='mt-1 mb-1'>
+          Các tổ chức gây quỹ tiêu biểu
+        </h2>
+        <div className='grid-container'>
+          <Link to='/organization/100'>
             <img src={p1} alt='p1' className='grid-image' />
+          </Link>
+          <Link to='/organization/101'>
             <img src={p2} alt='p2' className='grid-image' />
+          </Link>
+          <Link to='/organization/102'>
             <img src={p3} alt='p3' className='grid-image' />
+          </Link>
+          <Link to='/organization/103'>
             <img src={p4} alt='p4' className='grid-image' />
+          </Link>
+          <Link to='/organization/104'>
             <img src={p5} alt='p5' className='grid-image' />
+          </Link>
+          <Link to='/organization/105'>
             <img src={p6} alt='p6' className='grid-image' />
+          </Link>
+          <Link to='/organization/106'>
             <img src={p7} alt='p7' className='grid-image' />
+          </Link>
+          <Link to='/organization/107'>
             <img src={p8} alt='p8' className='grid-image' />
+          </Link>
+          <Link to='/organization/108'>
             <img src={p9} alt='p9' className='grid-image' />
+          </Link>
+          <Link to='/organization/109'>
             <img src={p10} alt='p10' className='grid-image' />
+          </Link>
+          <Link to='/organization/110'>
             <img src={p11} alt='p11' className='grid-image' />
+          </Link>
+          <Link to='/organization/111'>
             <img src={p12} alt='p12' className='grid-image' />
+          </Link>
+          <Link to='/organization/112'>
             <img src={p13} alt='p13' className='grid-image' />
+          </Link>
+          <Link to='/organization/113'>
             <img src={p14} alt='p14' className='grid-image' />
+          </Link>
+          <Link to='/organization/114'>
             <img src={p15} alt='p15' className='grid-image' />
+          </Link>
+          <Link to='/organization/115'>
             <img src={p16} alt='p16' className='grid-image' />
+          </Link>
+          <Link to='/organization/116'>
             <img src={p17} alt='p17' className='grid-image' />
+          </Link>
+          <Link to='/organization/117'>
             <img src={p18} alt='p18' className='grid-image' />
+          </Link>
+          <Link to='/organization/118'>
             <img src={p19} alt='p19' className='grid-image' />
+          </Link>
+          <Link to='/organization/119'>
             <img src={p20} alt='p20' className='grid-image' />
+          </Link>
+          <Link to='/organization/120'>
             <img src={p21} alt='p21' className='grid-image' />
+          </Link>
+          <Link to='/organization/121'>
             <img src={p22} alt='p22' className='grid-image' />
+          </Link>
+          <Link to='/organization/122'>
             <img src={p23} alt='p23' className='grid-image' />
-
-          </div>
+          </Link>
         </div>
       </div>
-
-      <div className='bg-white'>
-        <div className='page-container '>
-          <h1>
-            Đồng hành trên Ứng dụng Viettel Money
-          </h1>
-          <img src={viettelmoney} alt='viettelmoney' className='banner-image' />
-        </div>
-      </div>
-      <div className='bg-gray'>
-        <div className='page-container mb-5'>
-          <h1 className='mt-5'>
-            Báo chí nói về GiveHub
-          </h1>
-          {/* Thêm anchor nếu cần */}
-          <div>
-            <img src={n1} alt='n1' className='flex-image' />
-            <img src={n2} alt='n2' className='flex-image' />
-            <img src={n3} alt='n3' className='flex-image' />
-          </div>
-          <div>
-            <img src={n4} alt='n4' className='flex-image' />
-            <img src={n5} alt='n5' className='flex-image' />
-            <img src={n6} alt='n6' className='flex-image' />
-            <img src={n7} alt='n7' className='flex-image' />
-          </div>
-        </div>
-      </div>
-      <div className='bg-white'>
-        <div className='page-container'>
-          <h1>
-            Ủng hộ cho GiveHub
-          </h1>
-          <div className='about-text about-text-donate pt-0'>
-            <img src={qr} alt='qr' className='donate-image' />
-
-            <p className='gray-text'>
-              Số tiền bạn ủng hộ được dùng để bù đắp cho các chi phí vận hành của Givehow, nhằm xây dựng một nền tảng gây quỹ cộng đồng trực tuyến tiện lợi, tin cậy và minh bạch cho người dùng và hoàn toàn MIỄN PHÍ cho các tổ chức phi lợi nhuận, bao gồm:<br /><br />
-
-              <strong>Công nghệ</strong>: Máy chủ, băng thông, bảo trì, phát triển hệ thống,…để đảm bảo tính ổn định, tiện lợi và bảo mật cho người dùng và các tổ chức gây quỹ.<br /><br />
-
-              <strong>Nhân lực</strong>: Nguồn ủng hộ của các bạn giúp GiveHub duy trì bộ máy nhân sự vận hành cần thiết, chúng tôi nỗ lực tối ưu bộ máy nhân sự thông qua việc sử dụng các nguồn lực tình nguyện viên và hỗ trợ khác để đảm bảo số tiền đóng góp của bạn có hiệu suất cao nhất.<br /><br />
-
-              Trân trọng,<br />
-              Đội ngũ GiveHub<br />
-            </p>
-          </div>
-        </div>
+      <div className='about-container bg-white'>
+        <h1>
+          Đồng hành trên Ứng dụng Viettel Money
+        </h1>
+        <img src={viettelmoney} alt='viettelmoney' className='banner-image' />
       </div>
 
-      <div className='bg-gray mb-5'>
-        <div className='page-container '>
-          <h1 className='mb-1'>
-            Hợp tác với GiveHub?
-          </h1>
-          <div className='about-text about-text-collab pt-0'>
-            <p className='gray-text'>
-              GiveHub cung cấp nền tảng cho các tổ chức có chức năng vận động và tiếp nhận tài trợ thực hiện việc khởi tạo các dự án gây quỹ trên nền tảng GiveHub.vn và kết nối các Doanh nghiệp thực hiện các chương trình Trách nhiệm xã hội (CSR). <br />
-              Nếu bạn đại diện một tổ chức được cấp phép hoạt động, như: Quỹ từ thiện; Quỹ xã hội; Tổ chức xã hội nghề nghiệp;…hay các Doanh nghiệp có mong muốn hợp tác triển khai CSR, ESG, vui lòng liên hệ với GiveHub để được hỗ trợ.<br />
-            </p>
-          </div>
-          <div>
-            <Link to={'/support'} className='contact-button'>LIÊN HỆ GIVEHUB</Link>
-          </div>
+      <div className='about-container bg-gray mb-5'>
+        <h1 className='mt-5'>
+          Báo chí nói về GiveHub
+        </h1>
+        <div>
+          <img src={n1} alt='n1' className='flex-image' />
+          <img src={n2} alt='n2' className='flex-image' />
+          <img src={n3} alt='n3' className='flex-image' />
         </div>
       </div>
     </div>

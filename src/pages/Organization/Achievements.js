@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../../data/data.json'
+import data from '../../data/data.json';
 
-function FeaturedProjects({ organizationName, onSwitchToFeatured }) {
+function Achievement({ organizationName, onSwitchToFeatured }) {
     const charities = data.charities;
     const org = data.org;
 
@@ -21,17 +21,22 @@ function FeaturedProjects({ organizationName, onSwitchToFeatured }) {
             .toLowerCase();
     };
 
-    // Bảng màu cho từng tag
-    const tagColors = {
-        "giao-duc": "#6f00ff",
-        "moi-truong": "#2196f3",
-        "y-te": "#ff9800",
-        "thien-tai": "#f7282f",
-        "tre-em": "#0aa886",
-        "nguoi-gia-neo-don": "#5c4917",
-        "hoan-canh-kho-khan": "#e64207",
+  // Bảng màu cho từng tag
+  const tagColors = {
+    "giao-duc": "#6f00ff",
+    "moi-truong": "#2196f3",
+    "y-te": "#ff9800",
+    "thien-tai": "#f7282f",
+    "tre-em": "#0aa886",
+    "nguoi-gia-neo-don": "#5c4917",
+    "hoan-canh-kho-khan": "#e64207",
+  };
 
-    };
+  // Hàm lấy màu cho tag
+  const getTagColor = (tag) => {
+    const normalizedTag = removeVietnameseTones(tag); // Loại bỏ dấu
+    return tagColors[normalizedTag] || "#e91e63"; // Màu mặc định
+  };
 
     // Lọc dự án theo tổ chức nếu organizationName được truyền
     const filteredCharities = organizationName
@@ -91,4 +96,4 @@ function FeaturedProjects({ organizationName, onSwitchToFeatured }) {
     );
 }
 
-export default FeaturedProjects;
+export default Achievement;

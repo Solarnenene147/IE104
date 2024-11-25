@@ -4,7 +4,8 @@ import data from "../../data/data.json";
 
 function Stats() {
   // Số mục hiển thị mỗi trang
-  const ITEMS_PER_PAGE = 10;
+  const ITEMS_PER_PAGE_ORG = 10; // Số tổ chức trên mỗi trang
+  const ITEMS_PER_PAGE_USER = 7; // Số user trên mỗi trang
 
   // State cho trang hiện tại của tổ chức và người dùng
   const [currentOrgPage, setCurrentOrgPage] = useState(1);
@@ -54,17 +55,17 @@ function Stats() {
   });
 
   // Tính tổng số trang cho tổ chức và người dùng
-  const totalOrgPages = Math.ceil(sortedOrgs.length / ITEMS_PER_PAGE);
-  const totalUserPages = Math.ceil(sortedUsers.length / ITEMS_PER_PAGE);
+  const totalOrgPages = Math.ceil(sortedOrgs.length / ITEMS_PER_PAGE_ORG);
+  const totalUserPages = Math.ceil(sortedUsers.length / ITEMS_PER_PAGE_USER);
 
   // Lấy dữ liệu theo trang hiện tại
   const orgsToDisplay = sortedOrgs.slice(
-    (currentOrgPage - 1) * ITEMS_PER_PAGE,
-    currentOrgPage * ITEMS_PER_PAGE
+    (currentOrgPage - 1) * ITEMS_PER_PAGE_ORG,
+    currentOrgPage * ITEMS_PER_PAGE_ORG
   );
   const usersToDisplay = sortedUsers.slice(
-    (currentUserPage - 1) * ITEMS_PER_PAGE,
-    currentUserPage * ITEMS_PER_PAGE
+    (currentUserPage - 1) * ITEMS_PER_PAGE_USER,
+    currentUserPage * ITEMS_PER_PAGE_USER
   );
 
   // Hàm để thay đổi trang
@@ -177,4 +178,4 @@ function Stats() {
   );
 }
 
-export default Stats;
+export default Stats

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../../data/data.json'
+import data from '../../data/data.json';
 
 function FeaturedProjects({ organizationName, onSwitchToAchievement }) {
     const charities = data.charities;
@@ -27,17 +27,16 @@ function FeaturedProjects({ organizationName, onSwitchToAchievement }) {
             .toLowerCase();
     };
 
-    // Bảng màu cho từng tag
-    const tagColors = {
-        "giao-duc": "#6f00ff",
-        "moi-truong": "#2196f3",
-        "y-te": "#ff9800",
-        "thien-tai": "#f7282f",
-        "tre-em": "#0aa886",
-        "nguoi-gia-neo-don": "#5c4917",
-        "hoan-canh-kho-khan": "#e64207",
-
-    };
+  // Bảng màu cho từng tag
+  const tagColors = {
+    "giao-duc": "#6f00ff",
+    "moi-truong": "#2196f3",
+    "y-te": "#ff9800",
+    "thien-tai": "#f7282f",
+    "tre-em": "#0aa886",
+    "nguoi-gia-neo-don": "#5c4917",
+    "hoan-canh-kho-khan": "#e64207",
+  };
 
     // Hàm lấy màu cho tag
     const getTagColor = (tag) => {

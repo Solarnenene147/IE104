@@ -40,6 +40,11 @@ const Home = () => {
         return organization ? organization.image : null;
     };
 
+    const getOrgID = (organizationName) => {
+        const organization = org.find((orgItem) => orgItem.organization === organizationName);
+        return organization ? organization.id : null;
+    }
+
     return (
         <div>
             <Slider {...settings}>
@@ -74,7 +79,7 @@ const Home = () => {
                 </div>
             </Slider>
 
-            <ProjectSlider charities={charities} org={org} getOrgImage={getOrgImage} />
+            <ProjectSlider charities={charities} org={org} getOrgImage={getOrgImage} getOrgID={getOrgID} />
 
             <div className="talkable-num">
                 <h1 className="title">Những con số biết nói</h1>

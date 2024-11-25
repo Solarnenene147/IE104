@@ -119,6 +119,8 @@
     margin: 50px 0 30px;
     text-align: center;
 }
+
+
 .project .subtitle{
     margin: 0;
     text-align: center;
@@ -295,12 +297,20 @@
     margin: 5px 0;
 }
 
+.home-project-title:hover{
+    color: #e91e63;
+}
+
 .home-org-logo {
     width: 50px;
     height: 50px;
     object-fit: contain;
     border-radius: 50%; /* Để hiển thị hình tròn, nếu bạn muốn */
     margin: 38% 15px 0 15px;
+}
+
+.home-org-logo:hover{
+    transform: scale(1.05);
 }
 
 .home-org{
@@ -325,6 +335,7 @@
     position: absolute;
     top: 900px;
     left: 7.5%;
+    z-index: -1;
 }
 
 .slider-prev, .slider-next {

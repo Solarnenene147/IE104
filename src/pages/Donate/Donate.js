@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import data from '../../data/data.json';
+import DonateModal from './DonateModal';
 import '../../styles/Donate.css'
 
-function OnlineDonate() {
-  const charities = data.charities;
 
+function Donate() {
+  const charities = data.charities;
+  const org = data.org;
   const removeVietnameseTones = (str) => {
     return str
         .normalize("NFD")
@@ -26,12 +28,26 @@ function OnlineDonate() {
     "nguoi-gia-neo-don": "#5c4917",
     "hoan-canh-kho-khan": "#e64207",
   };
+  const [selectedCharityTitle, setSelectedCharityTitle] = useState('');
+
+  const getOrgID = (organizationName) => {
+    const organization = org.find((orgItem) => orgItem.organization === organizationName);
+    return organization ? organization.id : null;
+  }
 
   // Hàm lấy màu cho tag
   const getTagColor = (tag) => {
       const normalizedTag = removeVietnameseTones(tag); // Loại bỏ dấu
       return tagColors[normalizedTag] || "#e91e63"; // Màu mặc định
   };
+
+  // OnlineDonate
+  const [isModalVisible, setModalVisible] = useState(false);
+  const openModal = (title) => {
+    setSelectedCharityTitle(title);
+    setModalVisible(true);
+  };
+    const closeModal = () => setModalVisible(false);
 
   return (
     <div className="donate-container">
@@ -41,6 +57,7 @@ function OnlineDonate() {
           .filter((charity) => charity.status === 0) // Chỉ hiển thị các dự án đang hoạt động
           .map((charity) => {
             const raised = parseInt(charity.raisedAmount.replace(/[^0-9]/g, ''), 10);
+            const orgID = getOrgID(charity.organization);
             const target = parseInt(charity.targetAmount.replace(/[^0-9]/g, ''), 10);
             const progress = Math.min((raised / target) * 100, 100);
 
@@ -56,7 +73,14 @@ function OnlineDonate() {
                         {charity.title}
                       </Link>
                     </h4>
-                    <p className="donate-org">{charity.organization}</p>
+                    <p className='donate-org'>
+                      <Link
+                          to={`/organization/${orgID}`} // Điều hướng đến trang chi tiết tổ chức
+                          style={{ textDecoration: "none", color: "black" }}
+                      >
+                          {charity.organization}
+                      </Link>
+                    </p>
                     <div className="progress-container">
                       <div className="progress-bar" style={{ width: `${progress}%` }}></div>
                     </div>
@@ -67,16 +91,19 @@ function OnlineDonate() {
                   </div>
                   <img src={charity.image} alt={charity.title} className="donate-image" />
                   <div className='donate-button-container'>
-                    <button className='donate-button'>Ủng hộ trực tuyến</button>
-                    <button className='donate-button'>Ủng hộ trực tiếp</button>
+                    <button className='donate-button' 
+                    onClick={() => openModal(charity.title)}>
+                      Ủng hộ ngay
+                    </button>
                   </div>
                 </div>
               </li>
             );
           })}
       </ul>
+      <DonateModal isVisible={isModalVisible} onClose={closeModal} charityTitle={selectedCharityTitle}/>
     </div>
   );
 }
 
-export default OnlineDonate;
+export default Donate;
