@@ -1,0 +1,117 @@
+.image-background-organization{
+    background-image: url(https://givenow.vn/wp-content/uploads/2022/11/GiveHands-iStock-Blog-1280x620-1280x620-1.jpeg);
+    height: 300px;
+    width: 100vw; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.image-organization{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 100px; 
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.container-organization{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.flex-container-organization{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-box-organization{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-bar {
+    width: 5px;
+    height: 100px; 
+    background-color: black; 
+    text-shadow: 10px;
+    opacity: 0.2;
+  }
+
+  .horizontal-bar p {
+    margin: 0; 
+    font-size: 16px;
+    color: #333; 
+  }
+
+.header-organization h1{
+    margin: 0;
+    padding: 0;
+}
+
+.name-organization{
+    color: black !important;
+    font-size: 30px !important;
+    
+}
+
+.information-organization{
+    display:flex !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.information-organization div{
+    display:flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 13px
+
+}
+
+.description-organization{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.red-stat-organization{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.black-stat-organization{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.horizontal-line {
+    width: 50%;         
+    height: 1px;         
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    opacity: 0.2;
+}
